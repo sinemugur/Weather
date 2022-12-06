@@ -1,2 +1,2 @@
 # Weather
- Weather App frontend, backend
+ Weather App frontend
