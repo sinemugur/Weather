@@ -1,0 +1,15 @@
+
+
+<form>
+  <input placeholder="enter lon" type="number" name="lon" [(ngModel)]="lon" required>
+  <br>
+  <hr>
+  <input placeholder="enter lat" type="number" name="lat" [(ngModel)]="lat" required>
+  <br>
+  <hr>
+  <button  type="submit" (click)="getPosts()">
+    veri cek
+  </button>
+
+</form>
+{{loaded?(posts | json):''}}
